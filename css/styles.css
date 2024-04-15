@@ -31,7 +31,7 @@ main{
     width: 100%;
     min-width: 325px;
     max-width: 500px;
-    margin: 0 1.8rem;
+    margin: 7rem 1.8rem;
     padding: 1rem 1.5rem;
     z-index: 999999999999;
     background-color: var(--White);
@@ -82,6 +82,15 @@ main .logo{
     overflow: hidden;
     transition: .5s;
 }
-.contentBox .content.active{
-    height: 250px;
+.contentBox.active .content#contentBox1{
+    height: 100px;
+}
+.contentBox.active .content#contentBox2{
+    height: 80px;
+}
+.contentBox.active .content#contentBox3{
+    height: 80px;
+}
+.contentBox.active .content#contentBox4{
+    height: 120px;
 }
